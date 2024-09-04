@@ -1,10 +1,10 @@
 # Euro 2024 Player Analysis
 
-This project involves a comprehensive analysis of the player statistics from the Euro 2024 tournament. The analysis includes various aspects such as player performance, market value, player attributes, and positional data.
+This project is a comprehensive analysis of player statistics from the Euro 2024 tournament. It was completed as a final project for a Data Analyst course at John Bryce College.
 
 ## Project Overview
 
-The goal of this project is to analyze the data of players participating in Euro 2024, examining various metrics and attributes. This includes understanding the relationship between the number of caps and goals, distribution of player heights and ages, market values, and much more.
+The objective of this project is to provide an in-depth analysis of player data from the Euro 2024 tournament. The analysis focuses on various aspects such as player performance, market value, player attributes, and positional data. Through this project, we aim to uncover insights about player characteristics, team compositions, and overall trends within the tournament.
 
 ## Data
 
@@ -61,7 +61,8 @@ Below are some of the key questions analyzed in this project with corresponding 
 
 ## How to Run
 
-To run the analysis, ensure you have the necessary Python libraries installed:
+To run the analysis, you can open the Jupyter notebook file named `Euro2024_Player_Analysis.ipynb` included in this repository. Make sure you have the necessary Python libraries installed:
+
 - pandas
 - matplotlib
 - seaborn
@@ -70,16 +71,4 @@ You can install these using pip:
 
 ```bash
 pip install pandas matplotlib seaborn
-```
-
-## Loading the Data
-The data file ```euro2024_players.xlsx``` is included in the repository. To load this data in your Python environment, use the following code snippet:
-```python
-import pandas as pd
-
-# Load the data
-df = pd.read_excel('euro2024_players.xlsx')
-
-# Display the first few rows of the dataframe
-print(df.head())
 ```
