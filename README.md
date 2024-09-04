@@ -83,6 +83,3 @@ df = pd.read_excel('euro2024_players.xlsx')
 # Display the first few rows of the dataframe
 print(df.head())
 ```
-
-## Data Source
-The data used in this project was sourced from Kaggle.
